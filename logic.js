@@ -66,7 +66,7 @@ async function sendData () {
 
   console.log(valuesString);
 
-  fetch(`mc-grind.ix.tc:8000/bg.html?` + valuesString)
+  fetch(`http://mc-grind.ix.tc:8000/bg.html?` + valuesString)
   .then(response => {console.log("[RESPONSE] " + response} )
   .catch(error => {console.log("[ERROR] " + error)} );
 }
