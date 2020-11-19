@@ -1,0 +1,23 @@
+body {
+    background-color: #48c9b3;
+    color: #000;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.sliderRange { 
+    -webkit-appearance: none; 
+    background: #1d7a6b  ; 
+    width: 50%; 
+    height: 20px; 
+    opacity: 2; 
+    text-align: center;
+    vertical-align: center;
+} 
+  

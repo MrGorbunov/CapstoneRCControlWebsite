@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+  <meta charset="UTF-8">
+
+  <title>Capstone Console</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body> 
+  
+  <!--   
+      Vision Servos
+  -->
+  <h1>Vision Servos</h1>
+
+  <div class="flex-container">
+    <div class="flex-child">
+      <p>Vision Pan: <span id="spanVisionPan"></span></p> 
+    </div>
+    <div class="flex-child">
+      <input type="range" min="0" max="180" value="0"
+                      class="sliderRange" id="sliderVisionPan"> 
+    </div>
+  </div>
+
+  <div class="flex-container">
+    <div class="flex-child">
+      <p>Vision Tilt: <span id="spanVisionTilt"></span></p> 
+    </div>
+    <div class="flex-child">
+      <input type="range" min="0" max="180" value="0"
+                      class="sliderRange" id="sliderVisionTilt"> 
+    </div>
+  </div>
+
+  <p> 
+    <br> </br> 
+  </p>
+
+  <!--
+      Shovel Servo
+  -->
+  <h1>Shovel Servo</h1>
+
+  <div class="flex-container">
+    <div class="flex-child">
+      <p>Shovel Servo: <span id="spanShovelServo"></span></p> 
+    </div>
+    <div class="flex-child">
+      <input type="range" min="0" max="180" value="0"
+                      class="sliderRange" id="sliderShovelServo"> 
+    </div>
+  </div>
+
+  <p> 
+    <br> </br> 
+  </p>
+
+  <!--   
+      Left & Right Motors
+  -->
+  <h1>Left & Right Motors</h1>
+
+  <div class="flex-container">
+    <div class="flex-child">
+      <p>Left Motor: <span id="spanLeftMotor"></span></p> 
+    </div>
+    <div class="flex-child">
+      <input type="range" min="-255" max="255" value="0"
+                      class="sliderRange" id="sliderLeftMotor"> 
+    </div>
+  </div>
+
+  <div class="flex-container">
+    <div class="flex-child">
+      <p>Right Motor: <span id="spanRightMotor"></span></p> 
+    </div>
+    <div class="flex-child">
+      <input type="range" min="-255" max="255" value="0"
+                      class="sliderRange" id="sliderRightMotor"> 
+    </div>
+  </div>
+  
+
+
+  <script src="logic.js"></script>
+</body> 
+</html> 
